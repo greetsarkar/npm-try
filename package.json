@@ -1,0 +1,29 @@
+{
+  "name": "app-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greetsarkar/npm-try.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "optimus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greetsarkar/npm-try/issues"
+  },
+  "homepage": "https://github.com/greetsarkar/npm-try#readme",
+  "dependencies": {
+    "uikit": "^3.5.9"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.2.0"
+  }
+}
