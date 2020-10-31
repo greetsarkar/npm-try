@@ -24,7 +24,6 @@
     "uikit": "^3.5.9"
   },
   "devDependencies": {
-    "express": "^4.17.1",
     "mocha": "^8.2.0"
   }
 }
