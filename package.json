@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/greetsarkar/npm-try#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "uikit": "^3.5.9"
   },
   "devDependencies": {
