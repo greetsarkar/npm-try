@@ -1,0 +1,20 @@
+.right-side-subnav
+{
+    transform: translateX(100%);
+}
+
+.x-small-font
+{
+    font-size: x-small !important;
+}
+
+.heading
+{
+    padding-left: 20% !important;
+}
+
+.submit-button
+{
+    position: relative;
+    left: 46%;
+}

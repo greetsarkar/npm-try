@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/geektrust-logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/dashboard.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--<div class="header uk-flex uk-flex-wrap uk-flex-center">
+            <div class="heading uk-margin-xlarge-left uk-padding uk-padding-remove-vertical uk-padding-remove-right">
+                <h1>Finding Falcone</h1>
+            </div>
+
+            <div class="uk-subnav uk-subnav-divider right-side-subnav">
+                <li><a class="x-small-font reset" href="#">Reset</a></li>
+                <li><a class="x-small-font" href="https://www.geektrust.in/">Geek Trust Home</a></li>
+            </div>
+        </div>-->
+
+        <div class="uk-flex uk-flex-around">
+            <div class="heading uk-margin-xlarge-left">
+                <h1>Finding Falcone</h1>
+            </div>
+
+            <div class="uk-subnav uk-subnav-divider">
+                <li><a class="x-small-font reset" href="#">Reset</a></li>
+                <li><a class="x-small-font" href="https://www.geektrust.in/">Geek Trust Home</a></li>
+            </div>
+        </div>
+
+        <div class="select-planets uk-margin-large-top">
+            <div class="uk-text-center">
+                <h4>Select planets you want to search in:</h4>
+            </div>
+            
+            <div class="uk-flex-center" uk-grid>
+                <div class="uk-flex uk-flex-column">
+                    <div class="uk-text-center">
+                        Destination 1
+                    </div>
+                     
+                    <div class="uk-form-controls uk-margin-bottom">
+                        <select class="uk-select" id="dest-1">
+                            <option value="">Select</option>
+                            <option value="donlon">Donlon</option>
+                            <option value="enchai">Enchai</option>
+                            <option value="jebing">Jebing</option>
+                            <option value="sapir">Sapir</option>
+                            <option value="lerbin">Lerbin</option>
+                            <option value="pingasor">Pingasor</option>
+                        </select>
+                    </div>
+
+                    <div class="uk-form-controls">
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-1">Space Pod</label><br>
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-1">Space Rocket</label><br>
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-1">Space Shuttle</label><br>
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-1">Space Ship</label>
+                    </div>
+                </div>
+
+                <div class="uk-flex uk-flex-column">
+                    <div class="uk-text-center">
+                        Destination 2
+                    </div>
+                     
+                    <div class="uk-form-controls uk-margin-bottom">
+                        <select class="uk-select" id="dest-2">
+                            <option value="">Select</option>
+                            <option value="donlon">Donlon</option>
+                            <option value="enchai">Enchai</option>
+                            <option value="jebing">Jebing</option>
+                            <option value="sapir">Sapir</option>
+                            <option value="lerbin">Lerbin</option>
+                            <option value="pingasor">Pingasor</option>
+                        </select>
+                    </div>
+
+                    <div class="uk-form-controls">
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-2">Space Pod</label><br>
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-2">Space Rocket</label><br>
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-2">Space Shuttle</label><br>
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-2">Space Ship</label>
+                    </div>
+                </div>
+
+                <div class="uk-flex uk-flex-column">
+                    <div class="uk-text-center">
+                        Destination 3
+                    </div>
+                     
+                    <div class="uk-form-controls uk-margin-bottom">
+                        <select class="uk-select" id="dest-3">
+                            <option value="">Select</option>
+                            <option value="donlon">Donlon</option>
+                            <option value="enchai">Enchai</option>
+                            <option value="jebing">Jebing</option>
+                            <option value="sapir">Sapir</option>
+                            <option value="lerbin">Lerbin</option>
+                            <option value="pingasor">Pingasor</option>
+                        </select>
+                    </div>
+
+                    <div class="uk-form-controls">
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-3">Space Pod</label><br>
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-3">Space Rocket</label><br>
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-3">Space Shuttle</label><br>
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-3">Space Ship</label>
+                    </div>
+                </div>
+
+                <div class="uk-flex uk-flex-column">
+                    <div class="uk-text-center">
+                        Destination 4
+                    </div>
+                     
+                    <div class="uk-form-controls uk-margin-bottom">
+                        <select class="uk-select" id="dest-4">
+                            <option value="">Select</option>
+                            <option value="donlon">Donlon</option>
+                            <option value="enchai">Enchai</option>
+                            <option value="jebing">Jebing</option>
+                            <option value="sapir">Sapir</option>
+                            <option value="lerbin">Lerbin</option>
+                            <option value="pingasor">Pingasor</option>
+                        </select>
+                    </div>
+
+                    <div class="uk-form-controls">
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-4">Space Pod</label><br>
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-4">Space Rocket</label><br>
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-4">Space Shuttle</label><br>
+                        <label><input class="uk-radio" type="radio" name="vehicle-dest-4">Space Ship</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="submit-button uk-margin-large-top">
+                <button class="uk-button uk-button-default">Submit</button>
+            </div>
+        </div>
+        
+        <!--ENGINE JAVASCRIPTS. DO NOT TOUCH-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+        <script src="js/dashboard.js"></script>
+        <!------------------------------------>
+    </body>
+</html>
